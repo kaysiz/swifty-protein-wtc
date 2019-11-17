@@ -14,12 +14,12 @@
 		1F42249223787CB100487E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F42249023787CB100487E49 /* Main.storyboard */; };
 		1F42249523787CB100487E49 /* protein.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F42249323787CB100487E49 /* protein.xcdatamodeld */; };
 		1F42249A23787CB300487E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F42249823787CB300487E49 /* LaunchScreen.storyboard */; };
-		1F43AABC238020B40088D15F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F43AABB238020B40088D15F /* Assets.xcassets */; };
 		1F89EF2D237BCE9F00244EAC /* ProteinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89EF2C237BCE9F00244EAC /* ProteinListViewController.swift */; };
 		1F89EF2F237BE22A00244EAC /* ProteinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89EF2E237BE22A00244EAC /* ProteinCell.swift */; };
 		1F89EF31237BE24600244EAC /* Protein.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89EF30237BE24600244EAC /* Protein.swift */; };
 		1F89EF33237BF02D00244EAC /* ligands.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F89EF32237BF02D00244EAC /* ligands.txt */; };
 		1F89EF35237C41CA00244EAC /* ProteinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F89EF34237C41CA00244EAC /* ProteinViewController.swift */; };
+		4ED299C523814C1E00B82F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED299C423814C1D00B82F0F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +32,12 @@
 		1F42249423787CB100487E49 /* protein.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = protein.xcdatamodel; sourceTree = "<group>"; };
 		1F42249923787CB300487E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F42249B23787CB300487E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F43AABB238020B40088D15F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 		1F89EF2C237BCE9F00244EAC /* ProteinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinListViewController.swift; sourceTree = "<group>"; };
 		1F89EF2E237BE22A00244EAC /* ProteinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinCell.swift; sourceTree = "<group>"; };
 		1F89EF30237BE24600244EAC /* Protein.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protein.swift; sourceTree = "<group>"; };
 		1F89EF32237BF02D00244EAC /* ligands.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ligands.txt; sourceTree = "<group>"; };
 		1F89EF34237C41CA00244EAC /* ProteinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinViewController.swift; sourceTree = "<group>"; };
+		4ED299C423814C1D00B82F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 				1F89EF30237BE24600244EAC /* Protein.swift */,
 				1F89EF34237C41CA00244EAC /* ProteinViewController.swift */,
 				1F89EF2E237BE22A00244EAC /* ProteinCell.swift */,
-				1F43AABB238020B40088D15F /* Assets.xcassets */,
+				4ED299C423814C1D00B82F0F /* Assets.xcassets */,
 				1F89EF2C237BCE9F00244EAC /* ProteinListViewController.swift */,
 				1F42248E23787CB100487E49 /* ViewController.swift */,
 				1F42249023787CB100487E49 /* Main.storyboard */,
@@ -148,8 +148,8 @@
 			files = (
 				1F42249A23787CB300487E49 /* LaunchScreen.storyboard in Resources */,
 				1F42249223787CB100487E49 /* Main.storyboard in Resources */,
-				1F43AABC238020B40088D15F /* Assets.xcassets in Resources */,
 				1F89EF33237BF02D00244EAC /* ligands.txt in Resources */,
+				4ED299C523814C1E00B82F0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
