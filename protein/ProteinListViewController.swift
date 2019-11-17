@@ -11,7 +11,7 @@ import UIKit
 class ProteinListViewController: UIViewController {
     
     let searchBar = UISearchBar()
-    
+        
     var filteredLigands = [Protein]()
     
     let ligands = Protein.GetAllProteins()
@@ -48,7 +48,8 @@ class ProteinListViewController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.title = "Protein List"
         navigationController?.navigationBar.barTintColor = UIColor(red: 55/255, green: 120/255, blue: 250/255, alpha: 1)
-        
+        self.navigationItem.setHidesBackButton(true, animated:true);
+
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.barStyle = .black
         navigationController?.navigationBar.tintColor = .white
@@ -84,19 +85,6 @@ class ProteinListViewController: UIViewController {
     func isFiltering() -> Bool {
         return !isSearchBarEmpty()
     }
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "proteinDetails" {
-//            if let indexPath = self.tableView.indexPathForSelectedRow {
-////                if isFiltering() {
-////                    let ligandName: Protein = filteredLigands[indexPath.row]
-////                } else {
-////                    let ligandName: Protein = ligands[indexPath.row]
-////                }
-//            }
-//        }
-//    }
-
 }
 
 // the search bar
@@ -167,9 +155,12 @@ extension ProteinListViewController: UITableViewDelegate, UITableViewDataSource 
             ligandName = ligands[indexPath.row].ligandName
         }
 //        self.performSegue(withIdentifier: "proteinView", sender: self)
-        let vc: ProteinViewController = ProteinViewController()
+//        let vc: ProteinViewController =
+        
+        let vc = ProteinViewController()
         vc.ligandName = ligandName
-        self.present(vc, animated: true, completion: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
+//        self.present(vc, animated: true, completion: nil)
     }
 }
 

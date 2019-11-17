@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct atomdata {
+    var atomid: String
+    var atomX: Float?
+    var atomY: Float?
+    var atomZ: Float?
+    var atomtype: String
+}
+struct atomlinkdata {
+    var MainAtom: Int
+    var AtomLinks: [Int]
+}
